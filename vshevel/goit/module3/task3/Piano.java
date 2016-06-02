@@ -1,6 +1,6 @@
 package vshevel.goit.module3.task3;
 
-public class Piano extends MusicalInstruments {
+public class Piano extends MusicalInstrument {
 
     @Override
     public void howDoesThisSound() {
