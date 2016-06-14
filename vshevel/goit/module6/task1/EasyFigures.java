@@ -1,4 +1,4 @@
-package vshevel.goit.module4.task1;
+﻿package vshevel.goit.module6.task1;
 
 public class EasyFigures {
 
