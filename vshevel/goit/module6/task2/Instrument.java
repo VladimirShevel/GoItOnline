@@ -7,5 +7,5 @@ import java.util.Map;
 public abstract class Instrument {
     public final static String PIANO = "piano";
     public static final String GUITAR = "guitar";
-    public final static String TRUMPET = "Trumpet";
+    public final static String TRUMPET = "trumpet";
           }
