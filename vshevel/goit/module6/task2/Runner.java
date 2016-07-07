@@ -1,5 +1,4 @@
-﻿package vshevel.goit.module6.task2;
-
+package vshevel.goit.module6.task2;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -22,13 +21,13 @@ public class Runner {
         order.put(Instrument.TRUMPET, 7);
 
         try {
-            List<Instrument> list= shop.prepareInstruments(order);
+            List<Instrument> list = shop.prepareInstruments(order);
             for (Instrument instrument : list) {
-            System.out.println("your order is: " + instrument);}
-                System.out.println("We have " + instruments + " after your order.");
-                    }
-         catch (NoEnoughInstruments e) {
+                System.out.println("your order is: " + instrument);}
+            System.out.println("We have " + instruments + " after your order.");
+        }
+        catch (NoEnoughInstruments e) {
             System.out.println("Not enought instruments on the store. " + e.getMessage());
         }
-      }
+    }
 }
