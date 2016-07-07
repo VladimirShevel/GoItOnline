@@ -104,9 +104,6 @@ public class Runner {
         allInstruments.addAll(guitarList);
         System.out.print("All instruments after your order\n");
         printCollection(allInstruments);
-        //sorted collection
-
-
     }
     //метод печати
     public static void printCollection(Collection<Instrument> print){
