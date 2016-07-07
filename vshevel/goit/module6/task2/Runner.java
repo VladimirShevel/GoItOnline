@@ -1,4 +1,8 @@
 package vshevel.goit.module6.task2;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
