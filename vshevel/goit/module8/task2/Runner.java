@@ -1,4 +1,4 @@
-package vshevel.goit.module6.task2;
+package vshevel.goit.module8.task2;
 
 import java.util.*;
 
@@ -79,22 +79,18 @@ public class Runner {
             List<Instrument> list = shop.prepareInstruments(order);
 
             TreeSet<Instrument> productCodeSorted = new TreeSet<>(new ProductCodeComparator());
-            for (int i = 0; i<allInstruments.size(); i++){
+            for (int i = 0; i<allInstruments.size(); i++)
                 productCodeSorted.add(allInstruments.get(i));
-            }
 
             TreeSet<Instrument> nameSorted = new TreeSet<>(new NameComparator());
-            for (int i = 0; i<allInstruments.size(); i++){
-                nameSorted.add(allInstruments.get(i));}
+            for (int i = 0; i<allInstruments.size(); i++)
+                nameSorted.add(allInstruments.get(i));
 
             System.out.println("All instruments sorted by ProductCode");
             printCollection(productCodeSorted);
+
             System.out.println("All instruments sorted by Name");
             printCollection(nameSorted);
-
-
-
-
 
             System.out.print("Your order is:\n");
             printCollection(list);

@@ -1,4 +1,4 @@
-package vshevel.goit.module6.task2;
+package vshevel.goit.module8.task2;
 
 import java.util.Comparator;
 
